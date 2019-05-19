@@ -1,0 +1,36 @@
+import React from 'react';
+import './MyImage.scss';
+
+class MyImage extends React.Component{
+    render(){
+        return(
+            <div class="wrapper">
+            <div class="slideshows">
+            <div class="slideshow slideshow--hero">
+                <div class="slides">
+                <div class="slide slide1"></div>
+                <div class="slide slide2"></div>
+                <div class="slide slide3"></div>
+                </div>
+            </div>
+            <div class="slideshow slideshow--contrast slideshow--contrast--before">
+                <div class="slides">
+                <div class="slide slide1"></div>
+                <div class="slide slide2"></div>
+                <div class="slide slide3"></div>
+                </div>
+            </div>
+            <div class="slideshow slideshow--contrast slideshow--contrast--after">
+                <div class="slides">
+                <div class="slide slide1"></div>
+                <div class="slide slide2"></div>
+                <div class="slide slide3"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        )
+    }
+}
+
+export default MyImage;

@@ -1,0 +1,113 @@
+.App {
+    text-align: center;
+    width: 100% ;
+  }
+  
+  .App:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .App-logo {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    /*height: 40vmin;*/
+    pointer-events: none;
+    text-align: left;
+  }
+  
+  .App-header {
+    background-color: #dee3da;
+    min-height: 100vh;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    /*color: white;*/
+  }
+  
+  h3{
+    color: #ff5910;
+  }
+  
+  .background{
+    background-image: url("https://images.wallpaperscraft.com/image/triangle_minimalism_lightning_veins_94394_1280x720.jpg")
+  }
+  
+  h1{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  .column {
+    float: left;
+    width: 24%;
+    text-align: center;
+    border : 1px solid gray;
+    margin-right: 5px;
+    background-color: #ffffff;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  .center{
+    text-align: center;
+  }
+  
+  .content{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  
+  .left{
+    float: left;
+    margin-left: 30%;
+  }
+  
+  .right{
+    float: right;
+    margin-right: 10%
+  }
+  
+  .table{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  .right{
+     position:absolute;
+     top:0;
+     right:0;
+  }
+  
+  
